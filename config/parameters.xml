@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+
+	
+	<!-- Regular User Login Details -->
+	<parameter name="serverURL" value="https://portal-prod3.econveyancepro.com/"/>
+	<parameter name="loginEmail" value="anna.broudno@econveyance.com"></parameter>
+	<parameter name="password" value="WeAreGreat11"></parameter>
+	
+	<!-- Admin Login Details -->
+	
+	<parameter name="adminLoginEmail" value="sarah.pugsley@econveyance.com"></parameter>
+	<parameter name="adminPassword" value="sarah456"></parameter>
+	
+	<!-- File creation details -->
+	<parameter name="selectalawyer" value="Depp, Johnny"/>
+	<parameter name="filenumber" value="123456789"></parameter>
+	<parameter name="filetype" value="Buyer"></parameter>
+	
+
+	  <!--test name="Login" >
+    <classes>
+       <class name="com.econveyance.automation.tests.logintest" />
+    </classes>
+  </test-->
+ 
+
+</suite>
